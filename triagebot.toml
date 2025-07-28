@@ -1,1 +1,42 @@
 [relabel]
+
+[major-change]
+# Issues that have this label will start the MCP process.
+# Defaults to "major-change".
+enabling_label = "major-change"
+
+# Label to apply once an MCP is seconded.
+second_label = "final-comment-period"
+
+# Label to apply when an MCP is created.
+# Typically this is used to track what needs to be discussed at a meeting.
+#meeting_label = "to-announce"
+
+# Label that indicates there are active concerns on the MCP
+# Typically tracked by `@rustbot concern`
+concerns_label = "has-concerns"
+
+# When this label is added to an issue, that triggers acceptance of the proposal
+# which sends an update to Zulip.
+# Defaults to "major-change-accepted".
+accept_label = "major-change-accepted"
+
+# Waiting period (in days) before the MCP is considered accepted.
+# Defaults to 10 days.
+waiting_period = 1
+
+# Enables automatic closing of the major change when the waiting period is completed.
+# Defaults to false.
+auto_closing = false
+
+# Optional extra text that is included in the GitHub comment when the issue is opened.
+#open_extra_text = ""
+
+# The Zulip stream to automatically create topics about MCPs in
+# Can be found by looking for the first number in URLs, e.g.
+# https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler
+#zulip_stream = 0
+
+# An Zulip group or username to tag in the Zulip message when a
+# proposal has been seconded.
+#zulip_ping = ""
