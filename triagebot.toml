@@ -10,7 +10,7 @@ second_label = "final-comment-period"
 
 # Label to apply when an MCP is created.
 # Typically this is used to track what needs to be discussed at a meeting.
-#meeting_label = "to-announce"
+meeting_label = "to-announce"
 
 # Label that indicates there are active concerns on the MCP
 # Typically tracked by `@rustbot concern`
@@ -35,7 +35,7 @@ auto_closing = false
 # The Zulip stream to automatically create topics about MCPs in
 # Can be found by looking for the first number in URLs, e.g.
 # https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler
-#zulip_stream = 0
+zulip_stream = 0
 
 # An Zulip group or username to tag in the Zulip message when a
 # proposal has been seconded.
