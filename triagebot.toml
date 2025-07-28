@@ -27,7 +27,7 @@ waiting_period = 1
 
 # Enables automatic closing of the major change when the waiting period is completed.
 # Defaults to false.
-auto_closing = false
+auto_closing = true
 
 # Optional extra text that is included in the GitHub comment when the issue is opened.
 #open_extra_text = ""
